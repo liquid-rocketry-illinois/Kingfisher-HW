@@ -3421,6 +3421,105 @@
 		)
 		(uuid "f91d9777-bf1f-4672-9aec-e1fc77ac553b")
 	)
+	(hierarchical_label "USBC_DP"
+		(shape bidirectional)
+		(at 132.08 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1af6ad23-c9ca-463d-85a4-0452faa51622")
+	)
+	(hierarchical_label "SD_MISO"
+		(shape bidirectional)
+		(at 132.08 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b92b236-e42b-4b92-bc47-8d6e3582ead2")
+	)
+	(hierarchical_label "SD_CLK"
+		(shape bidirectional)
+		(at 132.08 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2674952b-c1c2-43c5-a4e8-a37642aa98bc")
+	)
+	(hierarchical_label "USER_LED"
+		(shape bidirectional)
+		(at 132.08 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37fb7f52-8d1c-4994-a5c4-99a7a9cfbf41")
+	)
+	(hierarchical_label "SD_MOSI"
+		(shape bidirectional)
+		(at 132.08 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b86df5c-4e3f-4be3-84de-782f90575ecf")
+	)
+	(hierarchical_label "SD_RESET"
+		(shape bidirectional)
+		(at 132.08 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5aba2a22-538f-4c77-b007-e98c40dcb035")
+	)
+	(hierarchical_label "USBC_DM"
+		(shape bidirectional)
+		(at 132.08 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1037ce2-047a-4d89-8d5c-bdd73d484690")
+	)
+	(hierarchical_label "USER_BTN"
+		(shape bidirectional)
+		(at 132.08 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd815704-8529-4f27-bf7d-14966d9356b9")
+	)
+	(hierarchical_label "RESET"
+		(shape input)
+		(at 71.12 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef851132-0048-4da2-83bd-c7a863668a63")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 54.61 162.56 0)
