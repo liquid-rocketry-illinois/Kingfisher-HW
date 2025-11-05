@@ -2142,6 +2142,12 @@
 					(unit 1)
 				)
 			)
+			(project "GPS"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2203,6 +2209,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -2273,6 +2285,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2335,6 +2353,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -2407,6 +2431,12 @@
 					(unit 1)
 				)
 			)
+			(project "GPS"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2470,6 +2500,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "AE1")
 					(unit 1)
 				)
@@ -2538,6 +2574,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "C3")
 					(unit 1)
 				)
@@ -2660,6 +2702,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2730,6 +2778,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2796,6 +2850,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "L2")
 					(unit 1)
 				)
@@ -2871,6 +2931,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2933,6 +2999,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -3001,6 +3073,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "C2")
 					(unit 1)
 				)
@@ -3075,6 +3153,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3139,6 +3223,12 @@
 		(instances
 			(project "GPS"
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "GPS"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "C6")
 					(unit 1)
 				)
@@ -3211,6 +3301,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3274,6 +3370,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -3346,6 +3448,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3410,6 +3518,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -3482,6 +3596,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3546,6 +3666,12 @@
 		(instances
 			(project ""
 				(path "/29720b51-7a9f-41e8-8b6a-67a8a6ef38bc"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "R3")
 					(unit 1)
 				)
@@ -3618,6 +3744,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3684,12 +3816,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

@@ -621,6 +621,10 @@
     [
       "370a154e-a6dd-4f7c-9f86-560fca4820f6",
       "Microcontroller"
+    ],
+    [
+      "aff6795e-9a09-4ffe-99fb-dba81cca4540",
+      "GPS"
     ]
   ],
   "text_variables": {}
