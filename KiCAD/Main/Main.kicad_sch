@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 66.04 172.72) (xy 95.25 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a13f912-97d7-43c4-8c55-8a686e963293")
+	)
+	(wire
+		(pts
 			(xy 66.04 58.42) (xy 71.12 58.42)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "1564a2bd-0039-49d4-b8b5-3d66cd0c0d80")
+	)
+	(wire
+		(pts
+			(xy 67.31 118.11) (xy 83.82 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dedc143-ce5f-4ce7-807a-2ae269d8903d")
 	)
 	(wire
 		(pts
@@ -137,6 +157,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 175.26) (xy 63.5 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4962edd0-f1cf-4311-9381-b6773272744d")
+	)
+	(wire
+		(pts
 			(xy 54.61 93.98) (xy 54.61 97.79)
 		)
 		(stroke
@@ -154,6 +184,16 @@
 			(type default)
 		)
 		(uuid "501c1b76-2fa7-4909-9577-99defd6e17e7")
+	)
+	(wire
+		(pts
+			(xy 69.85 170.18) (xy 95.25 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5edd196f-9e7a-4b72-a9b5-206009e4ba37")
 	)
 	(wire
 		(pts
@@ -187,6 +227,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 115.57) (xy 82.55 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782c5491-7b00-4d02-8cc1-078ce1e3bd58")
+	)
+	(wire
+		(pts
 			(xy 82.55 115.57) (xy 82.55 45.72)
 		)
 		(stroke
@@ -194,6 +244,16 @@
 			(type default)
 		)
 		(uuid "7aec1a8a-58ca-4068-b60e-e83574e98ab8")
+	)
+	(wire
+		(pts
+			(xy 67.31 161.29) (xy 69.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "852f48eb-407b-44fb-8a83-005859119f05")
 	)
 	(wire
 		(pts
@@ -247,6 +307,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 161.29) (xy 69.85 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3db6c32-c69d-4e30-9805-268db4953268")
+	)
+	(wire
+		(pts
 			(xy 66.04 50.8) (xy 78.74 50.8)
 		)
 		(stroke
@@ -267,6 +337,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 175.26) (xy 63.5 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfdee624-5910-4323-9b58-2c6c9a5cbf7a")
+	)
+	(wire
+		(pts
+			(xy 66.04 171.45) (xy 66.04 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3754e1c-94b9-4e63-a12a-9cdd2a2a7fa3")
+	)
+	(wire
+		(pts
 			(xy 80.01 48.26) (xy 80.01 113.03)
 		)
 		(stroke
@@ -284,26 +374,6 @@
 			(type default)
 		)
 		(uuid "db6803d2-cf26-4e48-a571-02cc2911a475")
-	)
-	(wire
-		(pts
-			(xy 67.31 118.11) (xy 83.82 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9bf41de-21a3-4b17-b1ed-ebaf7c5b49f8")
-	)
-	(wire
-		(pts
-			(xy 67.31 115.57) (xy 82.55 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2a0aae-bbed-4d22-91f1-ddb97d7c17a8")
 	)
 	(wire
 		(pts
@@ -551,9 +621,29 @@
 				(justify right)
 			)
 		)
-		(pin "USER_BTN" bidirectional
-			(at 67.31 115.57 0)
-			(uuid "4dcb3650-b928-4dc9-a14d-76f3446119cc")
+		(pin "GPS_RX" bidirectional
+			(at 66.04 171.45 270)
+			(uuid "7d6b287b-8c79-4a67-9a84-d38a2cdd5fa8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_TX" bidirectional
+			(at 63.5 171.45 270)
+			(uuid "19ecc921-8e01-4728-9ff2-83e519b3f933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_RESET" input
+			(at 67.31 161.29 0)
+			(uuid "426bfef0-0e5e-47f2-98ff-81bdcd5e429a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,9 +651,19 @@
 				(justify right)
 			)
 		)
-		(pin "USER_LED" bidirectional
+		(pin "USER BTN" input
+			(at 67.31 115.57 0)
+			(uuid "ed7141d2-b40e-4c23-9a49-8f83fd40f34e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USER LED" input
 			(at 67.31 118.11 0)
-			(uuid "db4b4960-a4f1-4d63-afaf-6bfddeb4fd4c")
+			(uuid "b274b56a-7d1f-4875-8626-aad2e28628e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,6 +711,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPS_RESET" input
+			(at 95.25 170.18 180)
+			(uuid "7cbec652-a415-4dfc-9590-9e0eef154f8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_UART_RX" input
+			(at 95.25 172.72 180)
+			(uuid "7319031a-b05b-4919-bd44-15d92ca72d4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPS_UART_TX" input
+			(at 95.25 175.26 180)
+			(uuid "679e6244-8c49-471d-ac1f-62ca803924dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

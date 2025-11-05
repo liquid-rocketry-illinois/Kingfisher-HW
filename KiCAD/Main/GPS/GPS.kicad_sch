@@ -2012,71 +2012,38 @@
 		)
 		(uuid "f1cee2fe-ce5e-4152-95e5-6b9d2a6c4094")
 	)
-	(global_label "GPS UART TX"
+	(hierarchical_label "GPS_UART_TX"
 		(shape input)
 		(at 73.66 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "1fb13531-cead-4fea-bded-fa52b23ed2da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.1563 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "214f77d8-3660-45ba-a943-e62eeeceffde")
 	)
-	(global_label "GPS UART RX"
-		(shape input)
-		(at 73.66 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c22a6280-4fd4-4feb-9720-62eb7635823e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.8539 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPS RESET"
+	(hierarchical_label "GPS_RESET"
 		(shape input)
 		(at 80.01 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e145aa5c-8cf2-4b3a-9a0d-b88306a6e22b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.5626 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "2f062cec-d1c1-4e32-adbf-ce7b34ec20fd")
+	)
+	(hierarchical_label "GPS_UART_RX"
+		(shape input)
+		(at 73.66 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "db3f9a23-c23c-4850-8de3-40a66933ab11")
 	)
 	(symbol
 		(lib_id "power:GND")
