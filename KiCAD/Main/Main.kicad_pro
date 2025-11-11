@@ -624,7 +624,15 @@
     ],
     [
       "aff6795e-9a09-4ffe-99fb-dba81cca4540",
-      "GPS"
+      "GPS & Radio"
+    ],
+    [
+      "d72de9c1-6506-4260-b264-dca2ce008bbb",
+      "Camera"
+    ],
+    [
+      "a6ed620d-2e9d-447a-9d61-86e453a954d4",
+      "IMUs"
     ]
   ],
   "text_variables": {}

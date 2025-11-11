@@ -3328,16 +3328,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Microprocessor Interface"
-		(exclude_from_sim no)
-		(at 53.086 107.95 90)
-		(effects
-			(font
-				(size 1.905 1.905)
-			)
-		)
-		(uuid "f405fbad-e5e1-4582-85ab-f117d063724a")
-	)
 	(junction
 		(at 218.44 58.42)
 		(diameter 0)
@@ -3397,6 +3387,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a552f2d5-8104-49a4-a7ed-5e880ab694fc")
+	)
+	(junction
+		(at 116.84 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a65037db-a28b-4c02-8a80-18fba3bd97be")
 	)
 	(junction
 		(at 213.36 119.38)
@@ -3471,16 +3467,6 @@
 			(type default)
 		)
 		(uuid "038b85ff-52f5-479e-84d3-cbf2e776553d")
-	)
-	(wire
-		(pts
-			(xy 119.38 142.24) (xy 96.52 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04a040f9-1fdc-44e3-b6f8-ed6c921e55c1")
 	)
 	(wire
 		(pts
@@ -3824,16 +3810,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 139.7) (xy 114.3 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5617176c-696b-48da-9b5f-a83c25c4b249")
-	)
-	(wire
-		(pts
 			(xy 180.34 127) (xy 233.68 127)
 		)
 		(stroke
@@ -3854,7 +3830,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 184.15 109.22)
+			(xy 116.84 109.22) (xy 184.15 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4104,7 +4080,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 139.7) (xy 114.3 109.22)
+			(xy 116.84 139.7) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4274,6 +4250,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 139.7) (xy 116.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff15544-9af9-4eb6-a14d-d04aac66db90")
+	)
+	(wire
+		(pts
 			(xy 57.15 116.84) (xy 93.98 116.84)
 		)
 		(stroke
@@ -4344,16 +4330,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 142.24) (xy 96.52 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4237e41-1a9c-45be-b99a-d869a04989f0")
-	)
-	(wire
-		(pts
 			(xy 109.22 129.54) (xy 109.22 101.6)
 		)
 		(stroke
@@ -4361,6 +4337,16 @@
 			(type default)
 		)
 		(uuid "d5e93c19-8436-46ec-9768-ba7ce65a8208")
+	)
+	(wire
+		(pts
+			(xy 116.84 142.24) (xy 119.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d760dc6a-9b59-4d6c-af48-5ab7e6b5777e")
 	)
 	(wire
 		(pts
@@ -4384,13 +4370,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 114.3) (xy 96.52 114.3)
+			(xy 116.84 139.7) (xy 119.38 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc5e609f-4f34-44a8-bb16-de44ceee79ff")
+		(uuid "dab97a01-892e-4d27-93ae-f0af7f3f7742")
 	)
 	(wire
 		(pts
@@ -4472,6 +4458,94 @@
 		)
 		(uuid "fc3904cc-b70a-4292-b011-6c2931011a1a")
 	)
+	(hierarchical_label "BNO_CLKSELD"
+		(shape input)
+		(at 57.15 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f837cd3-b73f-4db2-a1e7-4b3f02eaa1f3")
+	)
+	(hierarchical_label "BNO_SCK"
+		(shape input)
+		(at 57.15 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15cbfeaf-429e-49c4-935b-fcce83c77418")
+	)
+	(hierarchical_label "BNO_MISO"
+		(shape input)
+		(at 57.15 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25818caa-e098-4673-a2e0-9a8708030017")
+	)
+	(hierarchical_label "BNO_MOSI"
+		(shape input)
+		(at 57.15 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60cb0bb3-ef06-42bf-809a-d47d628f46f7")
+	)
+	(hierarchical_label "BNO_CS"
+		(shape input)
+		(at 57.15 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91ce13be-e614-4fcc-9ca8-a831c3e28c62")
+	)
+	(hierarchical_label "BNO_INT"
+		(shape input)
+		(at 57.15 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1d6bfeb-3298-4099-a04a-e9d9997d9d7b")
+	)
+	(hierarchical_label "BNO_RST"
+		(shape input)
+		(at 57.15 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bd280d2d-6233-4db2-a4c2-141dd791c6ca")
+	)
+	(hierarchical_label "BNO_BOOT"
+		(shape input)
+		(at 57.15 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c30e55ab-062b-4895-87b0-de47fe536d63")
+	)
 	(symbol
 		(lib_id "Device:C_Small_US")
 		(at 233.68 135.89 0)
@@ -4536,6 +4610,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "C4")
 					(unit 1)
 				)
@@ -4807,6 +4887,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4877,6 +4963,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4941,6 +5033,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "C1")
 					(unit 1)
 				)
@@ -5015,6 +5113,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5077,6 +5181,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -5147,6 +5257,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5212,6 +5328,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "R1")
 					(unit 1)
 				)
@@ -5304,6 +5426,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5366,6 +5494,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR011")
 					(unit 1)
 				)
@@ -5433,6 +5567,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5507,6 +5647,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5570,6 +5716,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -5644,6 +5796,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5706,6 +5864,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR010")
 					(unit 1)
 				)
@@ -5776,6 +5940,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5839,6 +6009,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -5911,6 +6087,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5973,6 +6155,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -6047,6 +6235,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6113,6 +6307,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6175,6 +6375,12 @@
 		(instances
 			(project "IMU_CTRLFRK"
 				(path "/aead792a-4a3a-422e-8f19-9a151b1cac78"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
 					(reference "#PWR09")
 					(unit 1)
 				)
@@ -6366,12 +6572,12 @@
 					(unit 1)
 				)
 			)
+			(project "IMU_CTRLFRK"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/a6ed620d-2e9d-447a-9d61-86e453a954d4"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
