@@ -6133,16 +6133,49 @@
 		)
 		(uuid "fde36365-c5f6-4a4b-ad27-80b2018b14bb")
 	)
-	(hierarchical_label "5V_STABILIZED"
+	(global_label "3V3_STABILIZED"
 		(shape input)
-		(at 191.77 39.37 180)
+		(at 130.81 153.67 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "062b1c83-ef48-4551-a5f7-5b79f2a32c89")
+		(uuid "1acb8b1c-9c78-43a1-8281-50cfdd4b236e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.9477 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V_STABILIZED"
+		(shape input)
+		(at 191.77 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acf54b7c-843c-4b23-9d9c-1134d38c040a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.1172 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "USER_BTN"
 		(shape input)
@@ -6165,17 +6198,6 @@
 			(justify left)
 		)
 		(uuid "0d142f75-fd91-490c-b760-a38711ab534f")
-	)
-	(hierarchical_label "3V3_STABILIZED"
-		(shape input)
-		(at 130.81 153.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "10d60791-c0d0-4557-81e7-99b631b7939b")
 	)
 	(hierarchical_label "USBC_D+"
 		(shape input)
