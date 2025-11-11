@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMP390_project")(type "KiCad")(uri "${KIPRJMOD}/BMP390_project.kicad_sym")(options "")(descr ""))
+)
