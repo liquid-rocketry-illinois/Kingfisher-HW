@@ -3553,6 +3553,17 @@
 		)
 		(uuid "2465a4f2-ddd7-46c6-bfd2-30054bfe99d9")
 	)
+	(hierarchical_label "GPS SCL"
+		(shape input)
+		(at 71.12 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d07afca-c91d-417b-b8df-0459a1efb537")
+	)
 	(hierarchical_label "Camera DCMI D3"
 		(shape input)
 		(at 132.08 151.13 0)
@@ -3563,17 +3574,6 @@
 			(justify left)
 		)
 		(uuid "30e74a06-04f3-4b82-aec6-f051fb7c4f40")
-	)
-	(hierarchical_label "GPS_TX"
-		(shape bidirectional)
-		(at 132.08 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37fb7f52-8d1c-4994-a5c4-99a7a9cfbf41")
 	)
 	(hierarchical_label "Camera DCMI D2"
 		(shape input)
@@ -3641,6 +3641,17 @@
 		)
 		(uuid "535afaec-3b14-42ad-bc6e-85a1c3b97e23")
 	)
+	(hierarchical_label "Thermistor_SW2"
+		(shape input)
+		(at 71.12 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57f6c676-7523-46c9-97ef-d8cc37550d41")
+	)
 	(hierarchical_label "BMP390 (SPI4) CS2"
 		(shape input)
 		(at 71.12 130.81 180)
@@ -3651,6 +3662,17 @@
 			(justify right)
 		)
 		(uuid "5be16581-0c30-40b5-a01e-8e30b939404b")
+	)
+	(hierarchical_label "GPS SDA"
+		(shape input)
+		(at 71.12 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "62e83c72-f7f5-41bf-9d19-936c82e48369")
 	)
 	(hierarchical_label "Thermistor 4"
 		(shape input)
@@ -3795,6 +3817,17 @@
 		)
 		(uuid "9d66573e-abfd-403d-969e-98042723c895")
 	)
+	(hierarchical_label "Thermistor_SW1"
+		(shape input)
+		(at 71.12 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4efaf65-767a-4102-b052-2f66580b6b50")
+	)
 	(hierarchical_label "Camera PWDN"
 		(shape input)
 		(at 71.12 143.51 180)
@@ -3905,6 +3938,17 @@
 		)
 		(uuid "cc11c9c7-c124-477a-aee3-c73cac21ba2f")
 	)
+	(hierarchical_label "Thermistor_SW4"
+		(shape input)
+		(at 71.12 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3f76b22-70f1-4bff-8d5a-7cf7d705ae40")
+	)
 	(hierarchical_label "Camera DCMI D5"
 		(shape input)
 		(at 71.12 115.57 180)
@@ -3926,17 +3970,6 @@
 			(justify left)
 		)
 		(uuid "d6451915-0a1b-4c54-908f-4d98338a289a")
-	)
-	(hierarchical_label "GPS_RX"
-		(shape bidirectional)
-		(at 132.08 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd815704-8529-4f27-bf7d-14966d9356b9")
 	)
 	(hierarchical_label "BNO085 MISO"
 		(shape input)
@@ -3992,6 +4025,17 @@
 			(justify left)
 		)
 		(uuid "f514e40c-1875-42aa-85ea-c830b066b6b6")
+	)
+	(hierarchical_label "Thermistor_SW3"
+		(shape input)
+		(at 71.12 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8788336-857b-4157-a8b9-be526154b4eb")
 	)
 	(hierarchical_label "Camera TX"
 		(shape input)
