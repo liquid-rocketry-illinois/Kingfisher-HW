@@ -1102,7 +1102,13 @@
 		)
 	)
 	(junction
-		(at 266.7 38.1)
+		(at 266.7 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07111562-b456-43f6-9335-b4cbb79961d4")
+	)
+	(junction
+		(at 266.7 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f2d8d50-e3f0-4305-9c97-d0b84bd8a108")
@@ -1114,42 +1120,36 @@
 		(uuid "229bbc5f-8945-4ec0-8c79-d21ad03c4ffa")
 	)
 	(junction
-		(at 223.52 68.58)
+		(at 223.52 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba74bad-68fc-4384-97b3-68a26aa5c75b")
 	)
 	(junction
-		(at 266.7 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93298d85-8cc0-42ca-b34a-6e1d12b0b210")
-	)
-	(junction
-		(at 266.7 33.02)
+		(at 266.7 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af6d5ed4-2e90-4ab7-b077-51d9b1ac5787")
 	)
 	(no_connect
-		(at 261.62 35.56)
+		(at 261.62 38.1)
 		(uuid "98d6486a-2ece-4a29-ba33-4ad26e7e2e7e")
 	)
 	(no_connect
-		(at 261.62 30.48)
+		(at 261.62 33.02)
 		(uuid "a67a4f29-59b0-482b-ab80-f0beecdc4687")
 	)
 	(no_connect
-		(at 261.62 45.72)
+		(at 261.62 48.26)
 		(uuid "e503d25c-0dbc-44cc-ab5d-bdac161f3155")
 	)
 	(no_connect
-		(at 261.62 40.64)
+		(at 261.62 43.18)
 		(uuid "ee6910fb-5993-4d4e-9269-de0374fb9b05")
 	)
 	(wire
 		(pts
-			(xy 261.62 38.1) (xy 266.7 38.1)
+			(xy 261.62 40.64) (xy 266.7 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 68.58) (xy 223.52 68.58)
+			(xy 222.25 71.12) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 33.02) (xy 266.7 33.02)
+			(xy 261.62 35.56) (xy 266.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 95.25) (xy 217.17 48.26)
+			(xy 217.17 95.25) (xy 217.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 40.64) (xy 226.06 40.64)
+			(xy 224.79 43.18) (xy 226.06 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 38.1) (xy 226.06 38.1)
+			(xy 224.79 40.64) (xy 226.06 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1369,13 +1369,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 27.94) (xy 226.06 27.94)
+			(xy 212.09 30.48) (xy 226.06 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3d4ab2ba-4d72-462d-99e9-f39352edbde6")
+	)
+	(wire
+		(pts
+			(xy 266.7 21.59) (xy 266.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e20fbe3-6d48-4390-b0fd-65b0c27e85e6")
 	)
 	(wire
 		(pts
@@ -1449,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 33.02) (xy 266.7 38.1)
+			(xy 266.7 35.56) (xy 266.7 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 43.18) (xy 261.62 43.18)
+			(xy 266.7 45.72) (xy 261.62 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 33.02) (xy 226.06 33.02)
+			(xy 224.79 35.56) (xy 226.06 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 53.34) (xy 226.06 53.34)
+			(xy 219.71 55.88) (xy 226.06 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 48.26) (xy 226.06 48.26)
+			(xy 217.17 50.8) (xy 226.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 38.1) (xy 266.7 43.18)
+			(xy 266.7 40.64) (xy 266.7 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1546,16 +1556,6 @@
 			(type default)
 		)
 		(uuid "5fd9ade1-8c42-49b8-97ab-dcc2a851ceda")
-	)
-	(wire
-		(pts
-			(xy 266.7 21.59) (xy 266.7 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ef3540-d57e-4917-89d1-4f888ede6339")
 	)
 	(wire
 		(pts
@@ -1609,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 101.6) (xy 218.44 50.8)
+			(xy 218.44 101.6) (xy 218.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 27.94) (xy 266.7 27.94)
+			(xy 261.62 30.48) (xy 266.7 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 50.8) (xy 226.06 50.8)
+			(xy 218.44 53.34) (xy 226.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 88.9) (xy 215.9 45.72)
+			(xy 215.9 88.9) (xy 215.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 63.5) (xy 223.52 68.58)
+			(xy 223.52 66.04) (xy 223.52 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 226.06 45.72)
+			(xy 215.9 48.26) (xy 226.06 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 63.5) (xy 223.52 63.5)
+			(xy 226.06 66.04) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 21.59) (xy 212.09 27.94)
+			(xy 212.09 21.59) (xy 212.09 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 35.56) (xy 226.06 35.56)
+			(xy 224.79 38.1) (xy 226.06 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 68.58) (xy 226.06 68.58)
+			(xy 223.52 71.12) (xy 226.06 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 27.94) (xy 266.7 33.02)
+			(xy 266.7 30.48) (xy 266.7 35.56)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 107.95) (xy 219.71 53.34)
+			(xy 219.71 107.95) (xy 219.71 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +1995,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "001d8149-8064-40c1-965b-fff0285063e7")
 		(property "Reference" "#PWR020"
 			(at 219.71 33.02 0)
@@ -2007,7 +2006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 31.75 0)
+			(at 219.71 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2055,7 +2054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 222.25 68.58 0)
+		(at 222.25 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2064,7 +2063,7 @@
 		(fields_autoplaced yes)
 		(uuid "241f8a73-f684-4161-b5b9-2a1488291f62")
 		(property "Reference" "#PWR017"
-			(at 222.25 74.93 0)
+			(at 222.25 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2073,7 +2072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 69.85 0)
+			(at 224.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 68.58 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 68.58 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2100,7 +2099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 68.58 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2122,7 +2121,7 @@
 	)
 	(symbol
 		(lib_id "ADG5234BRUZ:ADG5234BRUZ")
-		(at 243.84 45.72 0)
+		(at 243.84 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2131,14 +2130,6 @@
 		(fields_autoplaced yes)
 		(uuid "2fa2e584-2cbe-4775-b76c-52d404f0f454")
 		(property "Reference" "U6"
-			(at 243.84 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADG5234BRUZ"
 			(at 243.84 20.32 0)
 			(effects
 				(font
@@ -2146,8 +2137,16 @@
 				)
 			)
 		)
+		(property "Value" "ADG5234BRUZ"
+			(at 243.84 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "ADG5234BRUZ:SOP65P640X120-20N"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2156,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2174,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2184,7 @@
 			)
 		)
 		(property "Description_1" "High Voltage Latch-Up Proof, Quad SPDT Switches"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2194,7 @@
 			)
 		)
 		(property "PACKAGE" "TSSOP-20"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2205,7 +2204,7 @@
 			)
 		)
 		(property "MPN" "ADG5234BRUZ"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2214,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2224,7 @@
 			)
 		)
 		(property "Package" "TSSOP-20 Analog Devices"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2234,7 @@
 			)
 		)
 		(property "OC_FARNELL" "2008781"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2244,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADG5234BRUZ/Analog+Devices/view-part/?ref=snap"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2254,7 @@
 			)
 		)
 		(property "MP" "ADG5234BRUZ"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2264,7 @@
 			)
 		)
 		(property "SUPPLIER" "Analog Devices"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2274,7 @@
 			)
 		)
 		(property "OC_NEWARK" "58T8829"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2284,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2294,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ADG5234BRUZ/Analog+Devices/view-part/?ref=eda"
-			(at 243.84 45.72 0)
+			(at 243.84 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
