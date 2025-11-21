@@ -118,38 +118,32 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "E22-900M22S:E22-900M22S"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "E22-900T22S:E22-900T22S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 5.08 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "E22-900M22S"
-				(at -12.7 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "E22-900M22S:E22-900M22S"
+			(property "Reference" "U"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
@@ -171,508 +165,185 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "EBYTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "SX1262 868/915MHz SPI SMD LoRa Module"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "Package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "E22-900M22S"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "Not in stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "E22-900M22S_0_0"
+			(symbol "E22-900T22S_1_1"
 				(rectangle
-					(start -10.16 -12.7)
-					(end 10.16 12.7)
+					(start -13.97 21.59)
+					(end 13.97 -21.59)
 					(stroke
-						(width 0.254)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
-						(type background)
+						(type color)
+						(color 73 138 164 1)
 					)
 				)
-				(text "eByte"
-					(at 7.62 -5.08 900)
+				(text "E22-900T22S"
+					(at 0 -23.368 0)
 					(effects
 						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "E22-900M22S"
-					(at 11.43 -5.08 900)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin input line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "NSS"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
+							(size 1.905 1.905)
 						)
 					)
 				)
 				(pin input line
-					(at -12.7 7.62 0)
+					(at -16.51 15.24 0)
 					(length 2.54)
-					(name "SCK"
+					(name "RXD"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "BUSY"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "RXEN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "TXEN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "DIO1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
+				(pin output line
+					(at -16.51 12.7 0)
 					(length 2.54)
-					(name "GND"
+					(name "TXD"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
+				(pin input line
+					(at -16.51 -1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "M0"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -15.24 90)
+				(pin input line
+					(at -16.51 -3.81 0)
 					(length 2.54)
-					(name "GND"
+					(name "M1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin output line
-					(at 12.7 10.16 180)
+					(at -16.51 -6.35 0)
 					(length 2.54)
-					(name "ANT"
+					(name "AUX"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "6"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
+				(pin input line
+					(at -16.51 -15.24 0)
 					(length 2.54)
-					(name "DIO2"
+					(name "RST"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 24.13 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 24.13 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 16.51 180)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -907,6 +578,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 173.99 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a6cda0a-8623-4bd7-83e2-8af6fc61ac40")
+	)
+	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e84935dc-7967-4521-a940-b595a35dd6e7")
+	)
+	(wire
+		(pts
+			(xy 158.75 105.41) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29596004-58d6-4c57-8b12-b90649cb4752")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e04bc41-38b0-43bb-b91b-1e946866f9d0")
+	)
 	(wire
 		(pts
 			(xy 176.53 73.66) (xy 176.53 77.47)
@@ -919,7 +622,27 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 82.55) (xy 189.23 82.55)
+			(xy 147.32 76.2) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81eea122-667c-475b-a5be-2b895c334060")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89012017-d02e-43fb-959d-582433f15418")
+	)
+	(wire
+		(pts
+			(xy 193.04 85.09) (xy 191.77 85.09)
 		)
 		(stroke
 			(width 0)
@@ -927,20 +650,70 @@
 		)
 		(uuid "b4f20243-1417-4b21-b6a2-50981f76f92c")
 	)
-	(hierarchical_label "MOSI_Radio"
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 147.32 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78ebf16-b029-4d86-81f8-04d3cab386ba")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 157.48 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdabdb3b-d159-4c83-bc06-4de895e0d329")
+	)
+	(wire
+		(pts
+			(xy 173.99 76.2) (xy 173.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce03e332-96ef-415e-8985-0bd32cc6b9d5")
+	)
+	(wire
+		(pts
+			(xy 173.99 74.93) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1e02a9-1325-498d-9e21-b9f4f6ff93b2")
+	)
+	(wire
+		(pts
+			(xy 157.48 102.87) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec88a11-c08d-49c9-ba45-57cf17752dcd")
+	)
+	(hierarchical_label "TX_Radio"
 		(shape input)
-		(at 163.83 87.63 180)
+		(at 158.75 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "19f5ddf4-9770-4d76-968f-4848d47a9ef1")
+		(uuid "0bd35935-3332-4617-9df3-4f7014afb7fa")
 	)
 	(hierarchical_label "RST_Radio"
 		(shape input)
-		(at 163.83 92.71 180)
+		(at 158.75 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -949,38 +722,27 @@
 		)
 		(uuid "72c9f928-2bd8-493d-a522-acde9be2d706")
 	)
-	(hierarchical_label "MISO_Radio"
+	(hierarchical_label "AUX_Radio"
 		(shape input)
-		(at 163.83 90.17 180)
+		(at 158.75 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "76f9cf0a-0725-487f-885a-49c16a1757cb")
+		(uuid "7f071306-65a4-4b13-8c82-af063020b964")
 	)
-	(hierarchical_label "SCK_Radio"
+	(hierarchical_label "RX_Radio"
 		(shape input)
-		(at 163.83 85.09 180)
+		(at 158.75 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c6dc9b1e-2242-4887-9593-25f3a7300aac")
-	)
-	(hierarchical_label "CS_Radio"
-		(shape input)
-		(at 163.83 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f015a222-7706-419d-9b24-396c70be8f21")
+		(uuid "9ccf35b2-0e6d-4edf-947d-2b3805ed13a9")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -1049,26 +811,25 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 107.95 0)
+		(lib_id "E22-900T22S:E22-900T22S")
+		(at 175.26 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8860ba06-b61e-4fe3-b13d-610f24b8b7d1")
-		(property "Reference" "#PWR025"
-			(at 176.53 114.3 0)
+		(uuid "3de952f6-90eb-43c6-8b3c-57b47d670641")
+		(property "Reference" "U10"
+			(at 175.26 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 113.03 0)
+		(property "Value" "~"
+			(at 175.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1076,7 +837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 107.95 0)
+			(at 175.26 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1085,7 +846,97 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 107.95 0)
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "989fc4c4-9e37-4cf5-a919-26157178144f")
+		)
+		(pin "8"
+			(uuid "c557d841-f816-4e1d-b615-b12ca7931d5f")
+		)
+		(pin "6"
+			(uuid "f38ef5a6-45d4-4486-b483-a609c91004ce")
+		)
+		(pin "5"
+			(uuid "83bbbbc1-cc42-4c69-83d9-426a26533796")
+		)
+		(pin "7"
+			(uuid "cc1932d5-d9f0-46c8-89f2-cbb61cfe7b9a")
+		)
+		(pin "2"
+			(uuid "4c1e87d4-9ec7-4c45-a8d4-7006989a7521")
+		)
+		(pin "3"
+			(uuid "c872c80e-154a-4e67-b447-0329e23055dd")
+		)
+		(pin "0"
+			(uuid "43f42edb-b69b-4602-9ccf-614fc0851162")
+		)
+		(pin "1"
+			(uuid "d4c652c4-ec24-4d9b-a432-9ffeb66ae83c")
+		)
+		(instances
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/cea653c8-bb92-4989-ba48-a3585205b361"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 74.93 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8860ba06-b61e-4fe3-b13d-610f24b8b7d1")
+		(property "Reference" "#PWR025"
+			(at 173.99 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +945,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 107.95 0)
+			(at 173.99 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,219 +966,8 @@
 		)
 	)
 	(symbol
-		(lib_id "E22-900M22S:E22-900M22S")
-		(at 176.53 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40d4e17-1149-4758-a65e-31215ee0b3f6")
-		(property "Reference" "IC1"
-			(at 178.4986 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "E22-900M22S"
-			(at 178.4986 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "E22-900M22S:E22-900M22S"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "EBYTE"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "SX1262 868/915MHz SPI SMD LoRa Module"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "Package"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=snap"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "E22-900M22S"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/E22-900M22S/EBYTE/view-part/?ref=eda"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "15"
-			(uuid "ceabd9aa-73e7-4191-adcd-0156683fa63b")
-		)
-		(pin "18"
-			(uuid "3ee7c835-7e8e-4766-871f-97bf16bed602")
-		)
-		(pin "19"
-			(uuid "72b6ef0b-96f8-4d1f-8d4d-a6759e92dc79")
-		)
-		(pin "17"
-			(uuid "2457762c-46de-4c80-8b1a-1ec207c3ba92")
-		)
-		(pin "16"
-			(uuid "50fb7d76-8386-4974-918c-b6182456a9e1")
-		)
-		(pin "21"
-			(uuid "6a92e3d6-1c22-4814-8476-54ccc4506b2e")
-		)
-		(pin "3"
-			(uuid "9533a9a8-8d12-4f20-998c-17e918d06e73")
-		)
-		(pin "4"
-			(uuid "d2fa16d4-9301-4110-8340-b111453b5137")
-		)
-		(pin "5"
-			(uuid "cf17c76d-bb4d-43df-b76d-3cc812bdfa52")
-		)
-		(pin "8"
-			(uuid "9fa9e99e-1bef-441e-9b37-6b4f33ec0857")
-		)
-		(pin "2"
-			(uuid "86e33841-c43c-4a94-b70c-f33b51821f08")
-		)
-		(pin "14"
-			(uuid "7ca8ef40-e003-4882-8005-0ce749326149")
-		)
-		(pin "13"
-			(uuid "fe2ce640-2fa7-48aa-9056-5924afbe6d84")
-		)
-		(pin "20"
-			(uuid "d50e772f-7f93-48ef-ac28-253405def0c0")
-		)
-		(pin "11"
-			(uuid "72fdea48-c9ca-4988-bb67-26914959a218")
-		)
-		(pin "22"
-			(uuid "a58221ae-9fb8-47eb-867f-5f13bb048278")
-		)
-		(pin "9"
-			(uuid "f380cf9b-b528-4f0e-aed4-49ebf5c1e423")
-		)
-		(pin "7"
-			(uuid "e79342f8-1071-4016-a829-f0e89a3b1196")
-		)
-		(pin "6"
-			(uuid "592c7541-c31b-456e-a20d-136a6cf39fe1")
-		)
-		(pin "1"
-			(uuid "39681548-d59f-4c11-b582-07412eac86b2")
-		)
-		(pin "10"
-			(uuid "f9cbc922-50c7-4136-bf84-3e0208b1cf1d")
-		)
-		(pin "12"
-			(uuid "90e774d4-1998-4728-9ec7-660c72bf2efd")
-		)
-		(instances
-			(project "Main"
-				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/cea653c8-bb92-4989-ba48-a3585205b361"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Antenna")
-		(at 196.85 82.55 270)
+		(at 198.12 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1336,7 +976,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8a4fc6a-e887-43e7-b9de-c7e775e01fe4")
 		(property "Reference" "AE2"
-			(at 200.66 81.28 90)
+			(at 201.93 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +985,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 200.66 83.82 90)
+			(at 201.93 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 82.55 0)
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,7 +1003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 82.55 0)
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1372,7 +1012,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 196.85 82.55 0)
+			(at 198.12 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
