@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/RF/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "E22-900T22S")(type "KiCad")(uri "${KICAD9_SYMBOL_DIR}/e22-900t22s.kicad_sym")(options "")(descr ""))
 )

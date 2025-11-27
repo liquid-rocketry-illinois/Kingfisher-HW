@@ -623,8 +623,24 @@
       "Microcontroller"
     ],
     [
-      "39ebab11-b78b-490e-b2d2-33f72292fc59",
+      "aff6795e-9a09-4ffe-99fb-dba81cca4540",
+      "GPS"
+    ],
+    [
+      "d72de9c1-6506-4260-b264-dca2ce008bbb",
+      "Camera"
+    ],
+    [
+      "a6ed620d-2e9d-447a-9d61-86e453a954d4",
+      "IMUs"
+    ],
+    [
+      "cea653c8-bb92-4989-ba48-a3585205b361",
       "RF"
+    ],
+    [
+      "8b42f0c3-8c9e-485f-8d18-4bee19125eba",
+      "Barometer"
     ]
   ],
   "text_variables": {}

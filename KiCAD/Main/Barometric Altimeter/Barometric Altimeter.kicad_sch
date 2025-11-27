@@ -11,32 +11,38 @@
 		(comment 1 "Designed by: Anthony J. Rodriguez (AE Student)")
 	)
 	(lib_symbols
-		(symbol "BMP390_project:BMP390"
+		(symbol "BMP390L:BMP390L"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 0 0)
+				(at -15.24 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "BMP390L"
+				(at -15.24 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "BMP390L:XDCR_BMP390L"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -58,24 +64,278 @@
 					(hide yes)
 				)
 			)
-			(symbol "BMP390_0_1"
+			(property "MF" "Bosch Sensortec"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.7"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "BMP390L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "BOSCH"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "BMP390L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "BMP390L_0_0"
 				(rectangle
-					(start 12.7 -12.7)
-					(end -12.7 11.43)
+					(start -15.24 -10.16)
+					(end 15.24 12.7)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "BMP390_1_1"
+				(pin input line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -20.32 0 0)
+					(length 5.08)
+					(name "SCK/SCL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "SDI/SDO/SDA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "SDO/DNC/SA0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at -11.43 6.35 180)
-					(length 2.54)
-					(name "GND"
+					(at 20.32 10.16 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 7.62 180)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "INT/DNC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "VSS/GND"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -85,294 +345,45 @@
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -11.43 0 180)
-					(length 2.54)
-					(name "SDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -11.43 -5.08 0)
-					(length 2.54)
-					(name "SDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "SCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 270)
-					(length 2.54)
-					(name "CSB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 10.16 270)
-					(length 2.54)
-					(name "VDDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 2.54 -10.16 90)
-					(length 2.54)
-					(name "INT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 11.43 6.35 180)
-					(length 2.54)
-					(name "VDD"
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "VSS/GND"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 0 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 11.43 -5.08 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "BMP390_project:VDDIO"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDDIO"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDDIO_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDDIO_1_1"
 				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(hide yes)
+					(name "VSS/GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
-					(number "1"
+					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -519,7 +530,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -540,7 +551,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VDD"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -566,7 +577,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -584,7 +595,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VDD_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -622,7 +633,7 @@
 					)
 				)
 			)
-			(symbol "VDD_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -644,7 +655,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VSS"
+		(symbol "power:GND"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -657,7 +668,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -665,8 +676,8 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "VSS"
-				(at 0 3.556 0)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -691,7 +702,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"VSS\""
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -709,10 +720,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "VSS_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -722,22 +733,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 1.27) (xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "VSS_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
-					(at 0 0 90)
+					(at 0 0 270)
 					(length 0)
 					(name "~"
 						(effects
@@ -759,44 +758,108 @@
 		)
 	)
 	(junction
-		(at 165.1 72.39)
+		(at 134.62 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0cce929a-8bfa-4c84-9347-22eac3167f30")
+		(uuid "106ca4ab-e5c7-4319-a5c5-1a04bf0733a9")
 	)
 	(junction
-		(at 165.1 80.01)
+		(at 134.62 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5d8958c4-d787-44e5-99f0-bce87eccf5f7")
+		(uuid "25838ccb-c924-40ef-8db2-48306f668830")
 	)
 	(junction
-		(at 119.38 60.96)
+		(at 134.62 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6fc77925-e0cb-41e9-8c14-6fde3b4d995c")
+		(uuid "2a8f1891-8e78-43dd-a3af-873836f0812b")
 	)
 	(junction
-		(at 165.1 85.09)
+		(at 134.62 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "352a48bf-57bb-40e2-b29b-1940b7a46200")
+	)
+	(junction
+		(at 134.62 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c02e2c7-26dd-4e4b-8a14-b8c934c6416f")
+	)
+	(junction
+		(at 134.62 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "710a0a3a-2dac-4e6d-91d2-0d84a7687378")
 	)
 	(junction
-		(at 119.38 73.66)
+		(at 35.56 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "daa4402b-0c63-431d-8553-8ea330235997")
+		(uuid "716414c7-c8fe-4e42-a6a7-e9f1b7b62766")
 	)
 	(junction
-		(at 165.1 96.52)
+		(at 34.29 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ec320a93-b28d-4336-a1f7-0945335d7dad")
+		(uuid "8743ab12-1cba-4b8b-97cf-557030779e10")
+	)
+	(junction
+		(at 134.62 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba2b0cf-8406-4abb-865e-b7f8d86c7bbf")
+	)
+	(junction
+		(at 50.8 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c9deea6-781c-48d2-ab8f-71fd79e1bf96")
+	)
+	(junction
+		(at 33.02 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3eb038c-8aff-40a7-8fe5-640ea3ce3648")
+	)
+	(junction
+		(at 48.26 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68e64c7-79df-409e-8cc0-1887089e3e09")
+	)
+	(junction
+		(at 134.62 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b54a07e2-fbf1-48c8-8225-6e8660f488f7")
+	)
+	(junction
+		(at 134.62 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5eebf71-5ddd-41f6-9e79-543b83f7420f")
+	)
+	(junction
+		(at 49.53 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca334c76-9106-42e3-b2a7-7cc928c754ff")
 	)
 	(wire
 		(pts
-			(xy 165.1 85.09) (xy 165.1 96.52)
+			(xy 134.62 83.82) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0292d7bc-e10b-46a8-b107-6889eef93d79")
+	)
+	(wire
+		(pts
+			(xy 134.62 57.15) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -806,7 +869,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 80.01) (xy 165.1 80.01)
+			(xy 140.97 44.45) (xy 134.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9a17e3-532a-46b6-890f-283ef40d0195")
+	)
+	(wire
+		(pts
+			(xy 124.46 41.91) (xy 134.62 41.91)
 		)
 		(stroke
 			(width 0)
@@ -816,57 +889,167 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 58.42) (xy 140.97 69.85)
+			(xy 49.53 52.07) (xy 83.82 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27f79544-0b62-4e9e-b297-d036402055e1")
+		(uuid "22acfcfc-d478-483c-b378-e735c7ef1444")
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 119.38 77.47)
+			(xy 49.53 52.07) (xy 49.53 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31e00990-9fe1-44d3-bc92-df73df2b4561")
+		(uuid "23addd8c-5e5a-48cb-b607-f29477bc8753")
 	)
 	(wire
 		(pts
-			(xy 165.1 80.01) (xy 165.1 85.09)
+			(xy 30.48 107.95) (xy 35.56 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3dcb1e91-df7e-46f4-9f6f-a6f731493c60")
+		(uuid "2dae5c6d-78fb-4fd8-a40b-87114d940f07")
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 99.06)
+			(xy 140.97 36.83) (xy 134.62 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "674172ed-0bd8-4102-a434-27d86842bcb6")
+		(uuid "3425fdb8-b55a-4dee-8f86-17fe7d5fca17")
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 119.38 71.12)
+			(xy 49.53 110.49) (xy 83.82 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "68299d24-0464-4870-a5f2-5c60134ee4b8")
+		(uuid "3562cf11-49e8-40c6-b3de-13916afcda67")
 	)
 	(wire
 		(pts
-			(xy 154.94 73.66) (xy 165.1 73.66)
+			(xy 48.26 107.95) (xy 83.82 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373e4f15-775b-411b-8786-8fd47b2a943a")
+	)
+	(wire
+		(pts
+			(xy 124.46 173.99) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d63ade9-0231-49f2-94d5-33500a66cdec")
+	)
+	(wire
+		(pts
+			(xy 140.97 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea12a66-8910-43e2-9eac-48f0243c2b38")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 134.62 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "466b13a8-95fb-4d89-ba84-ded1d4cf659e")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4879a4c7-0f97-4ba6-b4a2-34156bbaadb4")
+	)
+	(wire
+		(pts
+			(xy 134.62 95.25) (xy 134.62 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa02f6d-cbcc-4678-bfef-73c4b2bf47da")
+	)
+	(wire
+		(pts
+			(xy 83.82 49.53) (xy 48.26 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc34e8b-c2c8-4dbc-bcd1-05393038cc84")
+	)
+	(wire
+		(pts
+			(xy 134.62 44.45) (xy 134.62 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e415596-16a3-4c4a-a4da-bc91ec1a4e6e")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fd0b4b-6bd7-44b4-9049-35462bfc589b")
+	)
+	(wire
+		(pts
+			(xy 33.02 113.03) (xy 33.02 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "672a2829-42f9-4b28-9cbb-566458334589")
+	)
+	(wire
+		(pts
+			(xy 124.46 158.75) (xy 134.62 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3fd328-f411-4584-a4fa-f8b51eca5b80")
+	)
+	(wire
+		(pts
+			(xy 124.46 39.37) (xy 134.62 39.37)
 		)
 		(stroke
 			(width 0)
@@ -876,67 +1059,277 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 73.66) (xy 119.38 73.66)
+			(xy 35.56 166.37) (xy 83.82 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f86f68a-51f6-4315-a552-7659ca120045")
+		(uuid "79e855da-38d2-4595-82ba-57e627526b8d")
 	)
 	(wire
 		(pts
-			(xy 146.05 60.96) (xy 119.38 60.96)
+			(xy 50.8 54.61) (xy 83.82 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7c672bf-8e14-4d50-ac71-96205968e0f1")
+		(uuid "7ac3b945-45d9-4950-b2d8-79d62327c630")
 	)
 	(wire
 		(pts
-			(xy 146.05 69.85) (xy 146.05 60.96)
+			(xy 134.62 102.87) (xy 134.62 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9663e86-d28b-4632-b92c-eb406810a5bc")
+		(uuid "84ec8ade-6bfb-4fc1-bdec-ee32512857be")
 	)
 	(wire
 		(pts
-			(xy 165.1 73.66) (xy 165.1 72.39)
+			(xy 140.97 153.67) (xy 134.62 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b480e09f-fe2b-4ab3-a934-13d8ea4bd9d7")
+		(uuid "88b14abb-318c-40f2-83ff-bbecd3721a8c")
 	)
 	(wire
 		(pts
-			(xy 119.38 58.42) (xy 119.38 60.96)
+			(xy 134.62 173.99) (xy 134.62 185.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c751a26f-02a6-4d4b-b6b1-d0504c29a2b0")
+		(uuid "898f99d0-6419-4d6f-af72-18e91e95f175")
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 119.38 63.5)
+			(xy 134.62 158.75) (xy 134.62 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef3d092c-5f7e-4208-99d7-20747f088c95")
+		(uuid "8d233884-e154-4660-9c56-a92f76a10ef7")
 	)
 	(wire
 		(pts
-			(xy 154.94 85.09) (xy 165.1 85.09)
+			(xy 124.46 115.57) (xy 134.62 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90cec64d-47ef-4a00-9a25-aac19d9f3751")
+	)
+	(wire
+		(pts
+			(xy 134.62 25.4) (xy 134.62 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "948691d4-f78b-4f35-bfb0-7911d467ed71")
+	)
+	(wire
+		(pts
+			(xy 134.62 161.29) (xy 134.62 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96bcc73d-d6b8-4381-b680-aca32c178a71")
+	)
+	(wire
+		(pts
+			(xy 34.29 110.49) (xy 49.53 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce586db-35d7-44da-95f0-bcc91a07ca90")
+	)
+	(wire
+		(pts
+			(xy 35.56 107.95) (xy 35.56 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f50c8aa-3497-4be5-a57f-e4d79f8e0ffe")
+	)
+	(wire
+		(pts
+			(xy 140.97 161.29) (xy 134.62 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b1332a-0ce4-4f21-ae7f-3ff3d3d2dd51")
+	)
+	(wire
+		(pts
+			(xy 34.29 110.49) (xy 34.29 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4aac266-cd35-428d-a0a4-b2daa304a9c5")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 134.62 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acba58a9-9c2c-4cea-9b33-07f2f7e7c0ce")
+	)
+	(wire
+		(pts
+			(xy 134.62 153.67) (xy 134.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bf6d31-9c22-4ce2-b5ea-f1c2fc9f616f")
+	)
+	(wire
+		(pts
+			(xy 33.02 171.45) (xy 83.82 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96c08f9-a34a-4ebc-9a5c-f7148c30470b")
+	)
+	(wire
+		(pts
+			(xy 34.29 168.91) (xy 83.82 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba109d01-80b5-453d-891c-9c4e47fec5d5")
+	)
+	(wire
+		(pts
+			(xy 30.48 110.49) (xy 34.29 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1840375-caa9-417d-9df9-90001f324c0f")
+	)
+	(wire
+		(pts
+			(xy 35.56 107.95) (xy 48.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23d5a92-c33c-4619-9674-df6c2d1f061a")
+	)
+	(wire
+		(pts
+			(xy 134.62 41.91) (xy 134.62 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6196afd-ccc3-4e13-868b-814dcbfee1a6")
+	)
+	(wire
+		(pts
+			(xy 134.62 100.33) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2f5268-07b8-41d8-a230-3cc9cf922b0e")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 83.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac77147-16f6-49de-a769-dcdf07184a59")
+	)
+	(wire
+		(pts
+			(xy 50.8 113.03) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbf5fa6-1974-4d75-be18-8b0511bcc4e4")
+	)
+	(wire
+		(pts
+			(xy 140.97 95.25) (xy 134.62 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc413fe0-046c-462f-b709-886b0010fb9e")
+	)
+	(wire
+		(pts
+			(xy 124.46 156.21) (xy 134.62 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d773a28b-0076-41e1-8c1c-e9e18b82d3ba")
+	)
+	(wire
+		(pts
+			(xy 33.02 113.03) (xy 50.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd518513-dbd7-4161-85cb-97d81e4f23d1")
+	)
+	(wire
+		(pts
+			(xy 48.26 49.53) (xy 48.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01de7f9-ef9e-4a2e-91fd-b91576416513")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 134.62 57.15)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 72.39) (xy 165.1 59.69)
+			(xy 134.62 36.83) (xy 134.62 39.37)
 		)
 		(stroke
 			(width 0)
@@ -954,28 +1347,94 @@
 		)
 		(uuid "f5e5616f-7813-4567-92fa-c148c434a46f")
 	)
-	(label "SCK"
-		(at 140.97 58.42 0)
+	(wire
+		(pts
+			(xy 30.48 113.03) (xy 33.02 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae7326a-108a-4a7f-bd5c-30965b9d0fb9")
+	)
+	(hierarchical_label "BMP390_SCK"
+		(shape input)
+		(at 30.48 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "7988bec1-03ba-4d90-b6f5-3672683891ca")
+		(uuid "12c34fce-e84d-4657-a11e-375564c3bee2")
+	)
+	(hierarchical_label "BMP390_MOSI"
+		(shape input)
+		(at 30.48 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "821aa0f5-b13d-4488-b057-ecc417752a09")
+	)
+	(hierarchical_label "BMP390_CS1"
+		(shape input)
+		(at 83.82 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "829c9bd7-d448-4835-8e93-b1d382ff8b25")
+	)
+	(hierarchical_label "BMP390_CS2"
+		(shape input)
+		(at 83.82 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c65affbc-d1cb-42d1-a230-381e78c763f8")
+	)
+	(hierarchical_label "BMP390_MISO"
+		(shape input)
+		(at 30.48 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfa9896e-3409-4a67-b208-a27e236b04f9")
+	)
+	(hierarchical_label "BMP390_CS3"
+		(shape input)
+		(at 83.82 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f6cf2673-1e9c-43f1-a46c-12a02c0455cc")
 	)
 	(symbol
-		(lib_id "power:VDD")
-		(at 165.1 59.69 0)
+		(lib_id "power:GND")
+		(at 134.62 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d6e2afb-0850-4a29-866f-d60f36a8b05f")
-		(property "Reference" "#PWR01"
-			(at 165.1 63.5 0)
+		(uuid "43a65efe-e56b-49da-b24d-8651ddc24d6e")
+		(property "Reference" "#PWR031"
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,8 +1442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VDD"
-			(at 165.1 54.61 0)
+		(property "Value" "GND"
+			(at 134.62 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,7 +1451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 59.69 0)
+			(at 134.62 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,7 +1460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 59.69 0)
+			(at 134.62 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1009,8 +1468,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 165.1 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,123 +1478,55 @@
 			)
 		)
 		(pin "1"
-			(uuid "85c520b4-9879-4ce6-8fbb-6e6082465d52")
+			(uuid "27c232e3-6a73-4675-a45c-dc18bd2cc0b3")
 		)
 		(instances
-			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "#PWR01")
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 119.38 67.31 0)
+		(lib_id "BMP390L:BMP390L")
+		(at 104.14 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ac3944d-544a-40d0-9242-3e4c04be4c32")
-		(property "Reference" "C1"
-			(at 123.19 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 123.19 68.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.3452 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 119.38 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ebf14f-ee90-4d8d-a282-6cd9cecf8afa")
-		)
-		(pin "2"
-			(uuid "b582ea83-8a69-40ac-9e64-43ec9a8e49ff")
-		)
-		(instances
-			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BMP390_project:BMP390")
-		(at 143.51 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5aec9fe-9d80-4722-bb4a-11e70e752ec6")
-		(property "Reference" "U1"
-			(at 143.51 80.01 0)
+		(uuid "4bb8b4d5-79ce-47ec-8a22-7af37ed6b070")
+		(property "Reference" "U8"
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 127 81.2098 0)
+		(property "Value" "BMP390L"
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 143.51 80.01 0)
+		(property "Footprint" "BMP390L:XDCR_BMP390L"
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 80.01 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 80.01 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1152,149 +1543,213 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "6a3eb7d2-3212-4914-90ea-f7ed99ce8ffe")
+		(property "MF" "Bosch Sensortec"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "953a92ce-c75b-4b84-9c44-49b4525ef959")
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "7"
-			(uuid "ffbe96d9-4368-4043-b2e6-63caa249b22f")
+		(property "Package" "None"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "6398f40c-ae1b-4c05-adde-a90ffba2d016")
+		(property "Price" "None"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "97642cbe-dcf2-44dd-b57a-73c69bf9dc29")
+		(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.7"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMP390L"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BOSCH"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "BMP390L"
+			(at 104.14 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
 		)
 		(pin "6"
-			(uuid "ce3a488c-5a52-4afb-be69-0592bdcf7399")
-		)
-		(pin "8"
-			(uuid "9588a305-3207-4ab9-a71a-75e1fe0d25c1")
-		)
-		(pin "9"
-			(uuid "ca3d34ed-993b-4f01-b7c4-e2c0ec4cf704")
+			(uuid "5cbf163b-eb80-4ceb-bb92-dbdae7a3584b")
 		)
 		(pin "5"
-			(uuid "d36e86dd-ddac-49ed-9457-d3e6980b7f7c")
+			(uuid "83341736-af3d-48ee-947f-b2f22b54e512")
 		)
 		(pin "10"
-			(uuid "f8bf6571-2341-4392-913c-1fa7056cbc1b")
+			(uuid "3b275be2-c121-4252-9e53-c9aaabbc2251")
+		)
+		(pin "2"
+			(uuid "defe7171-bee9-4cc7-9770-d80fa8854936")
+		)
+		(pin "4"
+			(uuid "1bd72323-89d4-42a2-aed1-98838eef8c63")
+		)
+		(pin "7"
+			(uuid "4a457ee5-1b61-4ee4-8f52-7bd2e1ed34cb")
+		)
+		(pin "1"
+			(uuid "d28583a4-0ece-4be1-94a9-2c54deb70133")
+		)
+		(pin "9"
+			(uuid "51c66f3f-866e-4c2f-900e-572a5bd9759c")
+		)
+		(pin "8"
+			(uuid "8ce69eed-5607-42bc-8a35-0f731ddec202")
+		)
+		(pin "3"
+			(uuid "33fc876f-c07b-45bd-a81a-9a453d8609cb")
 		)
 		(instances
-			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "U1")
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "U8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 119.38 77.47 180)
+		(lib_id "BMP390L:BMP390L")
+		(at 104.14 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1abd374-da15-413a-b1d1-0a018e3a7efa")
-		(property "Reference" "#PWR03"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VSS"
-			(at 119.38 82.55 0)
+		(uuid "5591681a-b86a-4889-b069-d6ce1310e5d6")
+		(property "Reference" "U7"
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97bb8718-c2d8-4133-9bfe-2e4a834833ab")
-		)
-		(instances
-			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "BMP390_project:VDDIO")
-		(at 119.38 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d250a01e-301f-4d95-b804-42b80c52c955")
-		(property "Reference" "#PWR04"
-			(at 119.38 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDIO"
-			(at 119.38 53.34 0)
+		(property "Value" "BMP390L"
+			(at 104.14 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 58.42 0)
+		(property "Footprint" "BMP390L:XDCR_BMP390L"
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 58.42 0)
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,22 +1757,179 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 119.38 58.42 0)
+		(property "Description" ""
+			(at 104.14 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MF" "Bosch Sensortec"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.7"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMP390L"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BOSCH"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "BMP390L"
+			(at 104.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "15cc8cf7-4bc3-47d3-8ad6-61498b461b5b")
+		)
+		(pin "5"
+			(uuid "8c41bad9-979e-41c1-90fc-4ae1c73b447f")
+		)
+		(pin "10"
+			(uuid "079e323c-5a67-4977-ac7f-fb5217f8d0b3")
+		)
+		(pin "2"
+			(uuid "6795c347-afad-45f5-bd96-53b53fb310f5")
+		)
+		(pin "4"
+			(uuid "f2da5472-9dcb-49d2-bb5f-a800903189da")
+		)
+		(pin "7"
+			(uuid "dc61d899-a4c5-4377-a615-55747fa2e78b")
 		)
 		(pin "1"
-			(uuid "c9ca3d24-dbfa-4e29-855b-7fad11580fd1")
+			(uuid "04c1ff7e-7d9d-4a68-905e-8dab35c83aef")
+		)
+		(pin "9"
+			(uuid "4e52f5b2-643a-437d-8f55-ed53b8c4f868")
+		)
+		(pin "8"
+			(uuid "139f0152-2fba-4e26-ad2c-b8b830297757")
+		)
+		(pin "3"
+			(uuid "62e113b0-1b42-476c-bcc1-9b80b4ed2c77")
 		)
 		(instances
 			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "#PWR04")
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1325,16 +1937,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 165.1 76.2 0)
+		(at 140.97 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0966458-30e7-46c8-8d86-990636479df9")
-		(property "Reference" "C2"
-			(at 168.91 74.9299 0)
+		(uuid "611ca16a-76a1-41cf-916b-ff184bbd5493")
+		(property "Reference" "C12"
+			(at 144.78 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1343,7 +1955,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 168.91 77.4699 0)
+			(at 144.78 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1964,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.0652 80.01 0)
+			(at 141.9352 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 165.1 76.2 0)
+			(at 140.97 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1982,634 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 165.1 76.2 0)
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e45ef44-1abc-4b74-ae74-9d37d0e9ee48")
+		)
+		(pin "2"
+			(uuid "80343263-bb71-4138-b4d3-a42e396b6cfb")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMP390L:BMP390L")
+		(at 104.14 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6427fe13-f87b-4d1b-b43e-6b1bb9439755")
+		(property "Reference" "U9"
+			(at 104.14 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BMP390L"
+			(at 104.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMP390L:XDCR_BMP390L"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Bosch Sensortec"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=eda"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendation"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.7"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BMP390L/Bosch/view-part/?ref=snap"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "BMP390L"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Pressure Sensor Development Tools Evaluation Shuttle Board for the BMP390L"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "BOSCH"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "BMP390L"
+			(at 104.14 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "c43d1bb2-5847-4ccc-aa50-3ae902b91e7e")
+		)
+		(pin "5"
+			(uuid "7170f7a7-de54-483d-a065-f5fe537463b1")
+		)
+		(pin "10"
+			(uuid "39ebea85-2fcd-45a3-ab44-62c43f331cbd")
+		)
+		(pin "2"
+			(uuid "4615580c-a64d-4edb-9cf9-e3b69346978a")
+		)
+		(pin "4"
+			(uuid "dfe0c13a-c285-413f-b41c-12dc64761e99")
+		)
+		(pin "7"
+			(uuid "c06e9c54-34a2-42d5-a89d-c16430a46de0")
+		)
+		(pin "1"
+			(uuid "60359a62-fee7-41bc-96d7-bacd112b6f14")
+		)
+		(pin "9"
+			(uuid "e0732e03-d2b5-4b0b-ad23-ace4b266e0fa")
+		)
+		(pin "8"
+			(uuid "fd31e49b-3eac-48f8-a0b4-d30f6d4b468a")
+		)
+		(pin "3"
+			(uuid "2df80c02-952d-4c93-8775-16275f0a0c71")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "765980d2-781e-470f-b69c-a3d9e281ff29")
+		(property "Reference" "#PWR029"
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55ece567-45e0-4de1-8b86-90a0c36772b3")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9be528dd-fdfc-4f61-8bbf-6f7143d36453")
+		(property "Reference" "#PWR030"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e943b3b-de0a-48ef-b018-184f299b482e")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f9d8a81-ace9-4be5-83ea-935b31d9e1c3")
+		(property "Reference" "#PWR028"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c61a933-7237-4845-8857-48199baa23cc")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a28a3dde-2d8d-40e7-a442-6b15c6061bb1")
+		(property "Reference" "#PWR026"
+			(at 134.62 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 134.62 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48a409e8-b0a6-403d-907a-01a30018e4f9")
+		)
+		(instances
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfd1e24b-4690-4872-a2e9-75902b1ed83c")
+		(property "Reference" "C13"
+			(at 144.78 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.9352 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "181547cb-9976-4571-a758-ad1fd8cea945")
+		)
+		(pin "2"
+			(uuid "cd93bcf1-1e88-482d-b840-1214083d23fc")
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 140.97 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0966458-30e7-46c8-8d86-990636479df9")
+		(property "Reference" "C2"
+			(at 144.78 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 144.78 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.9352 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 140.97 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1386,6 +2625,12 @@
 		)
 		(instances
 			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
 					(reference "C2")
 					(unit 1)
@@ -1394,17 +2639,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VSS")
-		(at 165.1 96.52 180)
+		(lib_id "power:GND")
+		(at 134.62 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc94ee4a-08a5-4028-a2e2-1541eb5ee94d")
-		(property "Reference" "#PWR02"
-			(at 165.1 92.71 0)
+		(uuid "fa8c2e71-51a0-4546-bc99-cf1446b93ddb")
+		(property "Reference" "#PWR027"
+			(at 134.62 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,8 +2657,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VSS"
-			(at 165.1 101.6 0)
+		(property "Value" "GND"
+			(at 134.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +2666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 96.52 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +2675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 96.52 0)
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1438,8 +2683,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VSS\""
-			(at 165.1 96.52 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,21 +2693,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e183f9d-6940-482e-8633-386314669dc7")
+			(uuid "d47ea266-bff2-4ed9-839e-51665b30b8d1")
 		)
 		(instances
 			(project ""
-				(path "/eb3f92a4-5afa-444f-b503-02e8b3f56bb1"
-					(reference "#PWR02")
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/8b42f0c3-8c9e-485f-8d18-4bee19125eba"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
