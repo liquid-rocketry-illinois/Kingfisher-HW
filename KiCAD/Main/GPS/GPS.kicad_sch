@@ -1527,6 +1527,12 @@
 		(uuid "4ab876e4-7a21-4196-9099-8135ed0aa309")
 	)
 	(junction
+		(at 116.84 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f2ed062-e755-4c87-b575-42f534062ea0")
+	)
+	(junction
 		(at 149.86 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1549,12 +1555,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c543d802-0fca-409b-9848-be04b0055478")
-	)
-	(junction
-		(at 116.84 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c827d18f-8a23-4018-b88a-779dc4605363")
 	)
 	(junction
 		(at 184.15 106.68)
@@ -1680,6 +1680,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3633252e-9986-42c3-8cb2-0605e6beb655")
+	)
+	(wire
+		(pts
 			(xy 160.02 106.68) (xy 163.83 106.68)
 		)
 		(stroke
@@ -1687,16 +1697,6 @@
 			(type default)
 		)
 		(uuid "38c318ad-bdbc-45ad-9ee7-cb82ad32ab36")
-	)
-	(wire
-		(pts
-			(xy 116.84 101.6) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b9ae15f-2e49-4cae-b401-5b65a51f5c0f")
 	)
 	(wire
 		(pts
@@ -1717,6 +1717,16 @@
 			(type default)
 		)
 		(uuid "3f1f635a-84c9-415f-b3f8-99182367af86")
+	)
+	(wire
+		(pts
+			(xy 137.16 101.6) (xy 137.16 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41897b8c-b74b-4277-8e4c-7b036dede4d2")
 	)
 	(wire
 		(pts
@@ -1747,6 +1757,16 @@
 			(type default)
 		)
 		(uuid "69064be9-4a1a-4202-be88-9cd51a5ca5bb")
+	)
+	(wire
+		(pts
+			(xy 134.62 101.6) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c77863d-d566-4fd2-8463-8a6ce509433d")
 	)
 	(wire
 		(pts
@@ -3454,6 +3474,139 @@
 			(project ""
 				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 130.81 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba252a2a-096b-4b33-9481-11750e51cfd3")
+		(property "Reference" "JP2"
+			(at 130.81 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LNA_ON/OFF"
+			(at 130.81 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 130.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bff6e64-49fb-4ce7-8441-285d13a99814")
+		)
+		(pin "2"
+			(uuid "23bf9b38-e6e0-4bf2-8e57-48a41cd7dd3f")
+		)
+		(instances
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc5f75b4-4e40-45c2-9e25-ccce96c41230")
+		(property "Reference" "#PWR033"
+			(at 137.16 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c73a3794-387f-4273-8c30-de3f7d4adbe8")
+		)
+		(instances
+			(project ""
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/aff6795e-9a09-4ffe-99fb-dba81cca4540"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
