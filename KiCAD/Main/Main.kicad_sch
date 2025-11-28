@@ -1789,7 +1789,7 @@
 		(instances
 			(project "Main"
 				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463"
-					(page "9")
+					(page "8")
 				)
 			)
 		)
@@ -2105,6 +2105,48 @@
 			(project "Main"
 				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 85.09)
+		(size 22.86 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eebcf3e5-9b19-4293-bb18-e013b380e1fa")
+		(property "Sheetname" "SIMUs"
+			(at 172.72 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SIMUs.kicad_sch"
+			(at 172.72 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Main"
+				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463"
+					(page "9")
 				)
 			)
 		)

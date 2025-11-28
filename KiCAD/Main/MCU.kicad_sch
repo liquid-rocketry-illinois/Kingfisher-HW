@@ -3789,6 +3789,17 @@
 		)
 		(uuid "4177e1a0-8f21-459f-889c-cd42a180089f")
 	)
+	(hierarchical_label "SHT41 SCL"
+		(shape output)
+		(at 132.08 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "42e9b3ae-ae79-4d94-83f6-85c8c3c1e92e")
+	)
 	(hierarchical_label "Camera Debug SWCLK"
 		(shape input)
 		(at 132.08 77.47 0)
@@ -4042,8 +4053,19 @@
 		)
 		(uuid "c637896f-e07f-42c4-8181-2d1e216a6f6b")
 	)
+	(hierarchical_label "SHT41 SDA"
+		(shape bidirectional)
+		(at 132.08 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6f4234f-e8e5-4781-9885-b6b8ec3cbbe2")
+	)
 	(hierarchical_label "Camera (I2C1) SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 132.08 107.95 0)
 		(effects
 			(font
@@ -4131,7 +4153,7 @@
 		(uuid "f1b61065-8e18-49a6-8b4c-7ff7d96d6dce")
 	)
 	(hierarchical_label "Camera (I2C1) SCL"
-		(shape input)
+		(shape output)
 		(at 132.08 105.41 0)
 		(effects
 			(font
