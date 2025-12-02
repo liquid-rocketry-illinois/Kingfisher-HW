@@ -627,10 +627,6 @@
       "GPS"
     ],
     [
-      "d72de9c1-6506-4260-b264-dca2ce008bbb",
-      "Camera"
-    ],
-    [
       "a6ed620d-2e9d-447a-9d61-86e453a954d4",
       "IMUs"
     ],
@@ -645,6 +641,10 @@
     [
       "eebcf3e5-9b19-4293-bb18-e013b380e1fa",
       "SIMUs"
+    ],
+    [
+      "896d693a-fbbd-418a-ac8a-f8826c549ae5",
+      "SHT41"
     ]
   ],
   "text_variables": {}
