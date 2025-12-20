@@ -1569,24 +1569,12 @@
 		(uuid "c543d802-0fca-409b-9848-be04b0055478")
 	)
 	(no_connect
-		(at 114.3 114.3)
-		(uuid "061e6ae2-f38c-40eb-b4cb-5bfc35f35629")
-	)
-	(no_connect
 		(at 83.82 96.52)
 		(uuid "18e7e7ac-4081-4b9b-b115-046901662a98")
 	)
 	(no_connect
-		(at 83.82 114.3)
-		(uuid "98305eaa-ac76-4bdf-aad9-d345989fd1d0")
-	)
-	(no_connect
 		(at 83.82 99.06)
 		(uuid "aa3fd4f2-5190-49e5-9a9c-7a4efc528499")
-	)
-	(no_connect
-		(at 83.82 111.76)
-		(uuid "f6f5ed18-ad51-4710-99ba-a6b0547dd4ee")
 	)
 	(wire
 		(pts

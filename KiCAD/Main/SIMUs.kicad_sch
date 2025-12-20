@@ -3170,7 +3170,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8b517d1-a908-4067-b5ba-7099e9f91d4d")
 		(property "Reference" "JP2"
-			(at 251.46 38.1 90)
+			(at 251.46 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,8 +3178,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TMR_Toggle"
-			(at 251.46 40.64 90)
+		(property "Value" "BMI270 TMR Toggle"
+			(at 251.46 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
