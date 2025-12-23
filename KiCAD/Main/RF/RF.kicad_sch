@@ -10,119 +10,6 @@
 		(comment 1 "Designed by: Aleph Qin (AE, TMGT Student)")
 	)
 	(lib_symbols
-		(symbol "Device:Antenna"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AE"
-				(at -1.905 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "antenna"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Antenna_0_1"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Antenna_1_1"
-				(pin input line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "E22-900T22S:E22-900T22S"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -646,16 +533,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 156.21 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4f20243-1417-4b21-b6a2-50981f76f92c")
-	)
-	(wire
-		(pts
 			(xy 138.43 78.74) (xy 111.76 78.74)
 		)
 		(stroke
@@ -673,6 +550,16 @@
 			(type default)
 		)
 		(uuid "bdabdb3b-d159-4c83-bc06-4de895e0d329")
+	)
+	(wire
+		(pts
+			(xy 156.21 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd23d0d6-d606-4399-9c83-ed6c96a4853d")
 	)
 	(wire
 		(pts
@@ -703,6 +590,16 @@
 			(type default)
 		)
 		(uuid "dec88a11-c08d-49c9-ba45-57cf17752dcd")
+	)
+	(label "NOTE: Using built-in coaxial antenna port"
+		(at 161.29 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "112b9a52-855c-4f49-9fbf-d924950db8ce")
 	)
 	(hierarchical_label "TX_Radio"
 		(shape input)
@@ -840,7 +737,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "E22-900M22S:E22-900M22S"
 			(at 139.7 104.14 0)
 			(effects
 				(font
@@ -964,73 +861,6 @@
 			(project "Main"
 				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/cea653c8-bb92-4989-ba48-a3585205b361"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 162.56 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8a4fc6a-e887-43e7-b9de-c7e775e01fe4")
-		(property "Reference" "AE2"
-			(at 166.37 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 166.37 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 162.56 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbd13b6e-0411-4618-bb00-90a08076e33c")
-		)
-		(instances
-			(project "Main"
-				(path "/bbb10697-a5dd-43b8-9c6f-4c5919cf3463/cea653c8-bb92-4989-ba48-a3585205b361"
-					(reference "AE2")
 					(unit 1)
 				)
 			)
