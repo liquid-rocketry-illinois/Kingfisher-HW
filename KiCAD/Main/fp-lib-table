@@ -9,4 +9,5 @@
   (lib (name "ISM6HG256XTR")(type "KiCad")(uri "C:/Users/admin/OneDrive/Desktop/LRI/HAL-1-HW/KiCAD/Added_Footprints/ISM6HG256XTR")(options "")(descr ""))
   (lib (name "MCP9600-I_MX")(type "KiCad")(uri "C:/Users/admin/OneDrive/Desktop/LRI/HAL-1-HW/KiCAD/Added_Footprints/MCP9600-I_MX")(options "")(descr ""))
   (lib (name "TPS2121RUXR")(type "KiCad")(uri "C:/Users/admin/OneDrive/Desktop/LRI/HAL-1-HW/KiCAD/Added_Footprints/TPS2121RUXR")(options "")(descr ""))
+  (lib (name "E22-900T22S")(type "KiCad")(uri "C:/Users/admin/OneDrive/Desktop/LRI/HAL-1-HW/KiCAD/Added_Footprints/E22-900T22S")(options "")(descr ""))
 )
